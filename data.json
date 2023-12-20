@@ -1,0 +1,25 @@
+{
+    "baseinfo": {
+        "filename": "xxx",
+        "packageName":"xxx",
+        "md5":"xxx",
+        "time":"xxx"
+    },
+    "permission":[
+        {"permissionname":"xxx","permissiondis":"xxx","type":"1"},
+        {"permissionname":"xxx","permissiondis":"xxx","type":"0"},
+        {"permissionname":"xxx","permissiondis":"xxx","type":"2"}
+    ],
+    "network": [
+        {"destip":"xxx","destport":80,"count":5},
+        {"destip":"xxx","destport":80,"count":5}
+    ],
+    "vulsandbox":[
+        {"vulname":"xxx","detailtype":"image","detail":"xxx"},
+        {"vulname":"xxx","detailtype":"image","detail":"xxx"}
+    ],
+    "sandbox":[
+        {"id":1,"action":"xxx","detail":"xxx"},
+        {"id":2,"action":"xxx","detail":"xxx"}
+    ]
+}

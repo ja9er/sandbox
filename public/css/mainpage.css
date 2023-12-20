@@ -1,0 +1,296 @@
+.evil {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 29px;
+    text-align: center;
+    color: #d81414;
+}
+
+.safe {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 29px;
+    text-align: center;
+    color: #36ab60;
+}
+
+.suspicious {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 29px;
+    text-align: center;
+    color: #eb9a4d;
+}
+
+.running {
+    margin-left: 45%;
+    width: 110px;
+    height: 28px;
+    text-align: center;
+    line-height: 28px;
+    color: #fff;
+    font-size: 12px;
+    border-radius: 2px;
+    background-color: #eb9a4d;
+}
+
+.collapse_detail {
+    width: 110px;
+    height: 28px;
+    text-align: center;
+    line-height: 28px;
+    font-size: 12px;
+    border-radius: 2px;
+
+    white-space: pre-line;
+
+}
+
+.el-header {
+    position: relative;
+    width: 100%;
+
+    align-items: center;
+}
+
+.el-main {
+    background-color: #f7f9ff;
+}
+
+.box-card {
+    margin-top: 15px;
+}
+
+#topheader {
+    background-color: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, .1);
+    align-items: center;
+}
+
+#topheader_a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+
+}
+
+.guard_aim {
+    position: relative;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1a1a1a;
+    padding: 0 10px;
+
+}
+
+.topheader_box {
+    display: flex;
+    align-items: center;
+    
+}
+
+.inputbox {
+    width: 460px;
+    padding: 0 10px;
+    height: 44px;
+    border-radius: 22px;
+    background: #fff;
+    box-shadow: 0 0 0 4px #f0f0f0;
+    border: 1px solid #c2c2c2;
+    background: #edeff0;
+}
+
+.inputbox input {
+    width: 350px;
+    padding: 0;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    background-color: transparent;
+}
+
+.searchico {
+    display: block;
+    width: 22px;
+    height: 22px;
+    margin-right: 6px;
+    background-size: contain;
+    background-image: url(/images/inputSearch.svg);
+}
+
+
+
+.el-row {
+    /*    margin-bottom: 10px;*/
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+}
+
+.el-col {
+    border-radius: 4px;
+}
+
+.bg-purple-dark {
+    background: #99a9bf;
+}
+
+.bg-purple {
+    background: #d3dce6;
+}
+
+.bg-purple-light {
+    background: #e5e9f2;
+}
+
+.grid-content {
+    border-radius: 4px;
+    min-height: 36px;
+}
+
+.row-bg {
+    padding: 10px 0;
+    background-color: #f9fafc;
+}
+
+
+.custom-card {}
+
+.card-content {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.color-bar {
+    width: 4px;
+    height: 110px;
+    background-color: rgb(216, 20, 20);
+    /* 你希望的颜色 */
+    margin-right: 15px;
+    /* 调整条形颜色与数字的间距 */
+    display: block;
+}
+
+#color-bar_2 {
+    background-color: #36ab60;
+}
+
+#color-bar_3 {
+    background-color: #1296db;
+}
+
+.ico_bar {
+    margin-right: 15px;
+    display: block;
+}
+
+.numbers {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.number1 {
+    font-size: 36px;
+    margin-bottom: -10px;
+    margin-top: 10px;
+}
+
+.numDescipt1 {
+    margin-right: auto;
+}
+
+.number2 {
+    display: flex;
+    font-size: 10px;
+    margin-top: -10px;
+    color: #888;
+    /* 可选：为第二个数字添加颜色 */
+}
+
+.el-statistic .con span {
+    margin-right: auto;
+}
+
+#number2_span span {
+    color: #888;
+}
+
+.numDescipt2 {
+    flex-shrink: 0;
+}
+
+.scrollablediv {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.scrollablediv span {
+    flex: 1;
+}
+
+.scrollablediv .el-tag {
+    /*margin-right: 10%;*/
+    align-content: center;
+    justify-content: center;
+    display: inline-block;
+    padding: 0 8px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
+    /*  flex-shrink: 0;*/
+    margin: 0 10px;
+}
+
+#dividertop {
+    margin-top: 2%;
+    margin-bottom: -3%;
+
+}
+
+#dividerbottom {
+    margin-top: -3%;
+}
+
+.timeline-container {
+    width: 100%;
+    /*  overflow: hidden;*/
+}
+
+.timeline-wrapper {
+    transition: transform 4.5s ease-in-out;
+    /* 可根据需要调整动画速度 */
+    height: 100px;
+}
+
+/*.el-timeline-item {
+    min-height: 50px;
+}*/
+#el-timeline-item__content {
+    margin-left: -70%;
+}
+
+.el-timeline-item__content span {
+    flex: 1;
+}
+
+.parent-row {
+    display: flex;
+}
+
+.right-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.right-content {
+    flex-grow: 1;
+}
